@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
-	/** experimental: {
+	experimental: {
 		serverComponentsExternalPackages: ["shiki", "vscode-oniguruma"],
 	},
 	// images: {
@@ -10,7 +10,7 @@ const nextConfig = {
 	// 			hostname: "*",
 	// 		},
 	// 	],
-	// },*/
+	// },
 	output: "export",
 	images: {
 		unoptimized: true,
